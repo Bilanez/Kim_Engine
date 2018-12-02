@@ -1,1 +1,21 @@
 
+<§  comment %>
+<§  option %>
+<§  obj question %>
+
+[question]
+   $object( 'char')
+   $question( 'char')
+[/questio]
+
+<§  option %>
+[option]
+    &list(
+      bT('example')
+    )&st
+    $option('example'){
+      !option("")
+      !rewrite(obj, -4)
+      !respond(obj, 'char')
+    }
+[/option]
