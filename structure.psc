@@ -1,4 +1,7 @@
-While(P)(TRUE) DO:
+if(DEAD == TRUE):
+  Start(Death):
+
+While(P)(DEAD != TRUE) DO:
 
   Start(Morning);
   Start(Event);
