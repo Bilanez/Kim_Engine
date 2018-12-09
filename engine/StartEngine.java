@@ -1,10 +1,13 @@
 public class StartEngine {
 	public static void startengine() throws IOException {
-		IF(DEATH() == TRUE) GAMEOVER();
-    		WHILE(DEATH() == FALSE){
-			
-			Event(test);
-				
+		if (DEATH() == TRUE) GAMEOVER();
+    		while (DEATH() == FALSE){
+			if(Death() == FALSE){
+				Event (test);
+			}
+			if(Death() == FALSE){
+				Event (test);
+			}		
 		}
 		
 		
